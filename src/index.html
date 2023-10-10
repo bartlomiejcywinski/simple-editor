@@ -6,14 +6,15 @@
     <link href="./index.css" rel="stylesheet">
     <title>Edytor</title>
 </head>
-<body class="bg-slate-200 h-screen grid">
-    <section class="max-w-[250px] m-auto">
-        <h1 class="font-IrishG">Mój edytor</h1>
-        <form action="">
-            <textarea class="min-w-[250px] min-h-[150px]" name="" id="" placeholder="Tutaj wpisz notatkę"></textarea>
-            <div class="button">
-                <button type="submit">Załaduj</button>
-                <button type="submit">Zapisz</button>
+<body class="bg-bg-custom-gray h-screen grid">
+    <section class="m-auto">
+        <h1 class="font-IrishG text-lg">Mój edytor</h1>
+        <form class="mt-2 sm:w-500 sm:h-300" action="">
+            <textarea class="min-w-[250px] min-h-[150px] w-full h-full rounded-xl placeholder:text-xs p-2 mb-1" name="" id="" placeholder="Tutaj wpisz notatkę"></textarea>
+            <div class="flex justify-end gap-2">
+                <button type="button" class="text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2  dark:bg-blue-800 dark:hover:bg-blue-900 focus:outline-none dark:focus:ring-blue-800 font-Inter">Załaduj</button>
+                <button type="button" class="focus:outline-none text-white bg-green-800 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-green-800 dark:hover:bg-green-900 dark:focus:ring-green-900">Zapisz</button>
+
             </div>
         </form>
     </section>
